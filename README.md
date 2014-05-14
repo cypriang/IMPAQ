@@ -10,6 +10,6 @@ Testo 4 IMPAQ
 5. vagrant up
 6. Wait for the server to download and install.
 
-Once you run it for the first time, node will run node-swapnames.js [script](https://s3.amazonaws.com/com.ipq.m2mcc/nodeswapnames.js) which is listening at http://localhost:8881
+Once you run it for the first time, node will run node-swapnames.js [script](https://s3.amazonaws.com/com.ipq.m2mcc/node-swapnames.js) which is listening at http://localhost:8881
 You can test script by runing following command:
 `curl -i -X POST -d '{"fname":"Onufry", "sname":"Zagłoba"}' http://localhost:8881`
