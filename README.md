@@ -1,4 +1,4 @@
-testo 4 IMPAQ
+Testo 4 IMPAQ
 =====
 ## Node.js / Ubuntu 12.04 64-bit Vagrant Box
 
@@ -12,6 +12,4 @@ testo 4 IMPAQ
 
 Once you run it for the first time, node will run node-swapnames.js [script](https://s3.amazonaws.com/com.ipq.m2mcc/nodeswapnames.js) which is listening at http://localhost:8881
 You can test script by runing following command:
-'''
-curl -i -X POST -d '{"fname":"Onufry", "sname":"Zagłoba"}' http://localhost:8881
-'''
+`curl -i -X POST -d '{"fname":"Onufry", "sname":"Zagłoba"}' http://localhost:8881`
