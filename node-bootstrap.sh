@@ -24,7 +24,7 @@ then
 	wget -P /home/vagrant https://s3.amazonaws.com/com.ipq.m2mcc/node-swapnames.js
 			
     # Victory!
-    echo -e "\n You're all done! Your default node server should now be listening on http://192.168.0.10/ 
+    echo -e "\n You're all done! Your server is available at http://192.168.0.10/ 
 		\n node.js Server running at http://127.0.0.1:8881/ 
 		\n Now run IMPAQ test: curl -i -X POST -d '{\"fname\":\"Onufry\", \"sname\":\"Zagłoba\"}' http://localhost:8881" 
 
